@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+
+    <style>
+        body {
+            background-color: #8980f0;
+            color: white;
+            font: normal 25pt arial;        
+        }
+        h1 {
+            color: rgb(231, 231, 65);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Olá, Mundo! </h1> 
+    <p>Já nos livramos da maldição</p>
+
+    <script>
+         var n1 = Number.parseInt(window.prompt('Digite um Número (n1): '))
+         var n2 = Number.parseInt(window.prompt('Digite um Número (n2): '))
+
+         var soma = n1 + n2
+
+         // uso da template string.
+         window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+    </script>
+
+</body>
+
+</html>

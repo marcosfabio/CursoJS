@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exemplo 04 </title>
+
+</head>
+
+<body>
+    
+
+    <script>
+        var nome = window.prompt('Digite seu nome: ')
+        document.write(`<h2> O nome ${nome} tem ${nome.length} letras </h2> </br>`)
+        document.write(`O nome ${nome} em maiúsculo fica: ${nome.toUpperCase()} </br>`)
+        document.write(`O nome ${nome} em minúsculo fica: ${nome.toLowerCase()}`)
+
+        /* Formatação de numeros
+            n1 = 2.4  -->  n1.toFixed(2) resulta em 2.40
+                      --> n1.toFixed(2).replace('.', ',') resulta e, 2,40
+                      --> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) resulta em R$ 2.40
+                      --> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) para dolar
+                      --> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) para Euro
+        */
+
+    </script>
+
+</body>
+
+</html>
